@@ -1,4 +1,10 @@
-szam1 = float(input("Adj meg egy számot: "))
-szam2 = float(input("Adj meg egy másik számot: "))
+#print("hello world!")
+szam1=int(input("Adj me egy számot: "))
+szam2=int(input("Adj me egy szmásik számot: "))
 
-print(f"Kétszám összege: {szam1 + szam2}")
+print("Két szám összege: ",szam1+szam2)
+print("Két szám különbsége: ",szam1-szam2)
+print("Két szám szorzata: ",szam1*szam2)
+print("Két szám hányadosa: ",szam1/szam2)
+print("Két szám maradéka: ",szam1%szam2)
+print("Két szám egész osztása: ",szam1//szam2)
