@@ -12,8 +12,8 @@
         print(i, end="   ")
     '''
 
-'''for i in range(0, 31, 3):
+for i in range(1, 10, 3):
     if i % 2 == 0:
         print(i, end="* ")
     else:
-        print(i, end="   ")'''
+        print(i, end="   ")
