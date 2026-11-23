@@ -25,3 +25,9 @@ for betu in szoveg:
     if betu == 'a' or betu == 'A':
         db=db+1
 print("Az 'a' betű darabszáma:", db)
+
+szám = int(input("Adj meg egy számot: "))
+if szám % 3 == 0:
+    print("A szövegben nincs.")
+else:
+    print("A szövegben van szám.")
